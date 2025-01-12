@@ -1,0 +1,437 @@
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+  background-color: #f1f1f3;
+}
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.banner {
+  padding: 80px 100px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.banner_title {
+  display: flex;
+  gap: 64px;
+}
+.banner_title .title {
+  padding: 24px;
+}
+
+.banner_title .title p {
+  font-weight: medium;
+  font-size: 24px;
+  color: #0e0e0e;
+  opacity: 50%;
+  font-family: "Fira Sans", serif;
+}
+.banner_title .title h1 {
+  font-weight: bold;
+  font-size: 56px;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+  margin-top: 16px;
+}
+
+.banner_title .title button {
+  background-color: #006a50;
+  padding: 17px 34px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 24px;
+  border: none;
+  font-family: "Fira Sans", serif;
+}
+
+.title button:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.card .vision {
+  margin-top: 80px;
+}
+
+.vision h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.vision p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card .future_card {
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+}
+
+/* digital card */
+.digital_card {
+  background: #81b4fc;
+  padding: 32px 32px;
+  border-radius: 16px;
+  height: auto;
+  width: 410px;
+}
+.future_card .digital_card h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+  margin-top: 24px;
+}
+
+.future_card .digital_card p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0e0e0e;
+  line-height: 24px;
+  opacity: 70%;
+}
+.future_card .digital_card button {
+  background-color: #5490f5;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Fira Sans", serif;
+}
+.digital_card button:hover {
+  background-color: blue;
+  transition: 0.5s;
+}
+
+/* energy card */
+.energy_card {
+  background-color: #c6e4d6;
+  padding: 32px 32px;
+  border-radius: 16px;
+  height: auto;
+  width: 410px;
+}
+
+.future_card .energy_card h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+  margin-top: 24px;
+}
+.future_card .energy_card p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0e0e0e;
+  line-height: 24px;
+  opacity: 70%;
+}
+
+.future_card .energy_card button {
+  background-color: #09a15c;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 24px;
+  font-family: "Fira Sans", serif;
+}
+.energy_card button:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+
+/* modern card */
+.modern_card {
+  background-color: #f7ebcf;
+  padding: 32px 32px;
+  border-radius: 16px;
+  height: auto;
+  width: 410px;
+}
+
+.future_card .modern_card h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+  margin-top: 24px;
+}
+
+.future_card .modern_card p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0e0e0e;
+  line-height: 24px;
+  opacity: 70%;
+}
+.future_card .modern_card button {
+  background-color: #ffc239;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Fira Sans", serif;
+}
+.modern_card button:hover {
+  background-color: darkorange;
+  transition: 0.5s;
+}
+
+/* news section styles */
+.world_news {
+  margin-top: 80px;
+}
+.world_news .news h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+
+.world_news .news p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+  margin-top: 24px;
+}
+
+/* card_1 styles */
+.world_news .card_1 {
+  display: flex;
+  padding: 48px 48px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  gap: 32px;
+  margin-top: 24px;
+}
+.world_news .card_1 .card_images {
+  border-radius: 24px;
+}
+
+.card_1 .card_info h1 {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: auto;
+}
+
+.card_1 .card_info .aljazera {
+  margin-bottom: 12px;
+}
+.card_1 .card_info .date_time {
+  display: flex;
+  gap: 12px;
+}
+.card_1 .card_info .date {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card_1 .card_info .time {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card_1 .card_info p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card_1 .card_info button {
+  background-color: #006a50;
+  border-radius: 8px;
+  border: none;
+  padding: 13px 26px;
+  color: #ffff;
+  font-weight: 600px;
+  font-size: 18px;
+  margin-top: 32px;
+  cursor: pointer;
+  font-family: "Fira Sans", serif;
+}
+.card_1 .card_info button:hover {
+  background-color: peru;
+  transition: 0.5s;
+}
+
+/* card_2 styles */
+.world_news .card_2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 48px 48px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  gap: 32px;
+  margin-top: 24px;
+}
+.world_news .card_2 .card_images {
+  border-radius: 24px;
+}
+
+.card_2 .card_info h1 {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: auto;
+}
+
+.card_2 .card_info .aljazera {
+  margin-bottom: 12px;
+}
+.card_2 .card_info .date_time {
+  display: flex;
+  gap: 12px;
+}
+.card_2 .card_info .date {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card_2 .card_info .time {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card_2 .card_info p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.card_2 .card_info button {
+  background-color: #006a50;
+  border-radius: 8px;
+  border: none;
+  padding: 13px 26px;
+  color: #ffff;
+  font-weight: 600px;
+  font-size: 18px;
+  margin-top: 32px;
+  cursor: pointer;
+  font-family: "Fira Sans", serif;
+}
+.card_info button:hover {
+  background-color: blueviolet;
+  transition: 0.5s;
+}
+
+/* donate styles */
+.donate {
+  margin-top: 80px;
+}
+.donate .donate_info h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #0e0e0e;
+  font-size: 40px;
+}
+.donate .donate_info p {
+  text-align: center;
+  font-weight: normal;
+  line-height: 24px;
+  color: #0e0e0e;
+  font-size: 16px;
+  opacity: 70%;
+  margin-top: 24px;
+}
+.donate .donate_info .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.donate .donate_info .btn .btn_1 {
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: none;
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 40px;
+}
+.donate_info .btn .btn_1:hover {
+  background-color: peru;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.donate .donate_info .btn .btn_2 {
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: #c6e4d6;
+  border: none;
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 40px;
+}
+.donate_info .btn .btn_2:hover {
+  background-color: green;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.donate .donate_info .btn .btn_3 {
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: none;
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 40px;
+}
+.donate_info .btn .btn_3:hover {
+  background-color: gray;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.donate .donate_info .btn .btn_4 {
+  padding: 40px 40px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: none;
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 40px;
+}
+.donate_info .btn .btn_4:hover {
+  background-color: #006a50;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.donate .donate_info .taka {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  background-color: #ffffff;
+  padding: 20px 40px;
+}
+.donate_info .taka .amount {
+}

@@ -199,19 +199,23 @@ main {
   border-radius: 16px;
 }
 
-.speech .lecture .inv_coma {
+.speech .lecture .coma {
   display: inline-block;
-  background-color: #0e0e0e;
+  height: 64px;
+  width: 64px;
   opacity: 30%;
-  word-spacing: 9px;
+  position: absolute;
 }
 
-.speech .lecture p {
+.speech .lecture .paragraph {
   font-weight: normal;
   line-height: 24px;
   font-size: 16px;
   color: #0e0e0e;
   opacity: 80%;
+  left: 0;
+  position: relative;
+  z-index: 1;
 }
 .speech .lecture h1 {
   font-weight: 600;
@@ -220,6 +224,13 @@ main {
   color: #0e0e0e;
   opacity: 80%;
   margin-top: 12px;
+}
+.speech .lecture p {
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 80%;
 }
 
 /* news section styles */

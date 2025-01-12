@@ -189,6 +189,41 @@ main {
   transition: 0.5s;
 }
 
+/* <!-- Dr.Yunus speech section styles--> */
+.speech {
+  margin-top: 32px;
+}
+.speech .lecture {
+  padding: 48px 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.speech .lecture .inv_coma {
+  display: inline-block;
+  background-color: #0e0e0e;
+  opacity: 30%;
+  word-spacing: 9px;
+}
+.speech .lecture .inv_coma span {
+}
+
+.speech .lecture p {
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+.speech .lecture h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 80%;
+  margin-top: 12px;
+}
+
 /* news section styles */
 .world_news {
   margin-top: 80px;
@@ -358,7 +393,7 @@ main {
   opacity: 70%;
   margin-top: 24px;
 }
-.donate .donate_info .btn {
+.donate .donate_info .amount_card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -366,7 +401,7 @@ main {
   margin-top: 32px;
 }
 
-.donate .donate_info .btn .btn_1 {
+.donate .donate_info .amount_card .c_1 {
   padding: 40px 40px;
   border-radius: 16px;
   background-color: #ffffff;
@@ -375,13 +410,13 @@ main {
   font-weight: bold;
   font-size: 40px;
 }
-.donate_info .btn .btn_1:hover {
+.donate_info .amount_card .c_1:hover {
   background-color: peru;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.donate .donate_info .btn .btn_2 {
+.donate .donate_info .amount_card .c_2 {
   padding: 40px 40px;
   border-radius: 16px;
   background-color: #c6e4d6;
@@ -390,13 +425,13 @@ main {
   font-weight: bold;
   font-size: 40px;
 }
-.donate_info .btn .btn_2:hover {
+.donate_info .amount_card .c_2:hover {
   background-color: green;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.donate .donate_info .btn .btn_3 {
+.donate .donate_info .amount_card .c_3 {
   padding: 40px 40px;
   border-radius: 16px;
   background-color: #ffffff;
@@ -405,13 +440,13 @@ main {
   font-weight: bold;
   font-size: 40px;
 }
-.donate_info .btn .btn_3:hover {
+.donate_info .amount_card .c_3:hover {
   background-color: gray;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.donate .donate_info .btn .btn_4 {
+.donate .donate_info .amount_card .c_4 {
   padding: 40px 40px;
   border-radius: 16px;
   background-color: #ffffff;
@@ -420,18 +455,139 @@ main {
   font-weight: bold;
   font-size: 40px;
 }
-.donate_info .btn .btn_4:hover {
+.donate_info .amount_card .c_4:hover {
   background-color: #006a50;
   transition: 0.5s;
   cursor: pointer;
 }
-.donate .donate_info .taka {
+.donate .donate_info .input_container {
+  margin-top: 32px;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 32px;
-  background-color: #ffffff;
-  padding: 20px 40px;
 }
-.donate_info .taka .amount {
+.donate .donate_info .input_container input {
+  width: 100%;
+  margin: auto;
+  padding: 20px 40px;
+  text-align: center;
+  border: none;
+}
+
+.donate .donate_info .done_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donate .donate_info .done_btn button {
+  margin-top: 32px;
+  padding: 17px 34px;
+  background-color: #006a50;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Fira Sans", serif;
+  cursor: pointer;
+  border: none;
+}
+.donate_info .done_btn button:hover {
+  background-color: darkgreen;
+  transition: 0.5s;
+}
+
+/* newsletter section styles */
+.newsletter {
+  margin-top: 80px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.newsletter .subscribe {
+  padding: 100px 80px;
+  text-align: center;
+}
+.newsletter .subscribe h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.newsletter .subscribe p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.newsletter .subscribe .email_btn {
+  background-color: #ffffff;
+  width: 600px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 1px solid #ffffff;
+  margin-top: 24px;
+}
+
+.newsletter .subscribe .email_btn input {
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+.newsletter .subscribe .email_btn button {
+  padding: 17px 34px;
+  background-color: #006a50;
+  border-radius: 0 4px 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.subscribe .email_btn button:hover {
+  background-color: turquoise;
+  transition: 0.6s;
+}
+.newsletter .subscribe .promise {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+  margin-top: 24px;
+}
+
+/* footer section styles */
+.foot {
+  margin-top: 80px;
+}
+.foot .bangladesh {
+  background-color: #ffffff;
+  padding: 160px 50px;
+  overflow: hidden;
+}
+.foot .bangladesh .bng {
+  text-align: center;
+}
+.foot .bangladesh .scale {
+  background-color: #0e0e0e;
+  text-align: center;
+  margin-top: 32px;
+  border-top: 1px solid;
+  opacity: 10%;
+}
+
+.foot .bangladesh .icon_images {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-bottom: 50px;
 }
